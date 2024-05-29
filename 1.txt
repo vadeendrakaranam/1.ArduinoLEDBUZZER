@@ -1,0 +1,13 @@
+//VADEENDRAKARANAM
+//LED,BUZZER CONTROL USING ARDUINO UNO
+int LEDbuzzerpin = 13;
+int delayT = 1000;
+void setup() {
+pinMode(LEDbuzzerpin, OUTPUT);
+}
+void loop() {
+digitalWrite(LEDbuzzerpin, HIGH);
+delay(delayT);
+digitalWrite(LEDbuzzerpin, LOW);
+delay(delayT);
+}
